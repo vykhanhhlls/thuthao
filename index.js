@@ -1,5 +1,5 @@
 const contentLetterSrart_actived = "你好,请打开礼物!" //Lời mở đầu cho bức thư
-const mainContentLetter = "祝你越来越健康，漂亮和挣很多钱 ^.^" //Nội dung của bức thư
+const mainContentLetter = "祝你越来越健康,漂亮,有钱和总是幸福 ^.^" //Nội dung của bức thư
 
 // Gắn 1 đường link ảnh bất kì
 let imgStart = document.querySelector(".myAI"); //Hình ảnh xuất hiện trong lời mở đầu của bức thư
