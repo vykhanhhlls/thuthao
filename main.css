@@ -371,11 +371,14 @@ transform: translate(-50%, 0);max-width: 100%;
     }
 
     .balloon2 {
-        right: 30px;
+        right: 24px;
     }
 
     .balloon3 {
-        right: 50%;
+        top: 50%;
+        left: 27%;
+        height: 200px;
+        width: 200px;
     }
 
     .content {
