@@ -18,7 +18,7 @@ body {
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: rgba(72, 209, 204, 1);
+    background-color: rgb(238, 115, 135);
 }
 
 .startLetter {
@@ -111,7 +111,7 @@ body {
 
 .recieve:hover {
     cursor: grab;
-    box-shadow: 4px 4px 4px gray;
+    box-shadow: 4px 4px 4px pink;
 }
 
 .recieve:active {
@@ -128,7 +128,7 @@ body {
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: rgba(72, 209, 204, 1);
+    background-color: rgb(238, 115, 135);
 }
 
 .balloon {
@@ -353,7 +353,7 @@ body {
         transform: translate(-50%, 0);
         animation: animateBannerMobile 1s ease-in-out 1s infinite alternate;
     }
-
+transform: translate(-50%, 0);max-width: 100%;
     .balloon {
         bottom: 100px;
         width: 100px;
@@ -365,6 +365,12 @@ body {
 
     .balloon2 {
         right: 30px;
+    }
+    .balloon3 {
+        top: 350px;
+        right: 240px;
+        width:250px;
+        height:250px;
     }
 
     .content {
